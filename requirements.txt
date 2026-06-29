@@ -1,0 +1,6 @@
+transformers
+accelerate
+torch
+torchvision
+pillow
+qwen-vl-utils
