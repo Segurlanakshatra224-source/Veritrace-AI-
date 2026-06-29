@@ -73,9 +73,8 @@ Unlike traditional computer vision models that only generate predictions, VeriTr
                 │
                 ▼
      Answer + Explanation
+     
 ```
-
----
 
 ##  Repository Structure
 
@@ -85,8 +84,6 @@ VeriTrace-AI
 ├── README.md
 ├── requirements.txt
 ├── VeriTrace_Qwen2VL.ipynb
-├── sample_images/
-├── outputs/
 └── docs/
 ```
 
