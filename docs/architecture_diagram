@@ -1,0 +1,37 @@
+                        VeriTrace AI Architecture
+
+                 +----------------------------+
+                 |          User              |
+                 +----------------------------+
+                            |
+          +-----------------+-----------------+
+          |                                   |
+     Upload Image                     Enter Question
+          |                                   |
+          +-----------------+-----------------+
+                            |
+                            v
+                 Image Preprocessing
+                            |
+                            v
+                  Qwen2-VL Processor
+                            |
+          +-----------------+-----------------+
+          |                                   |
+   Vision Encoder                    Text Encoder
+          |                                   |
+          +-----------------+-----------------+
+                            |
+                 Multimodal Fusion
+                            |
+                            v
+                   Language Model
+                            |
+          +-----------------+-----------------+
+          |                                   |
+      Generate Answer              Generate Explanation
+          |                                   |
+          +-----------------+-----------------+
+                            |
+                            v
+                      Display Output
