@@ -35,7 +35,7 @@ Unlike traditional computer vision models that only generate predictions, VeriTr
 *  Automatic Reasoning & Explanation
 *  Qwen2-VL Vision Language Model
 *  Hugging Face Transformers
-*  Google Colab Ready
+*  Google Colab 
 *  100% Open Source
 
 ---
@@ -53,28 +53,7 @@ Unlike traditional computer vision models that only generate predictions, VeriTr
 
 ---
 
-##  System Workflow
 
-
-               Input Image
-                    │
-                    ▼
-             User Question
-                    │
-                    ▼
-      Qwen2-VL Vision Language Model
-                    │
-         ┌──────────┴──────────┐
-         ▼                     ▼
-   Image Understanding    Language Understanding
-                │
-                ▼
-      Multimodal Reasoning
-                │
-                ▼
-     Answer + Explanation
-     
-```
 
 ##  Repository Structure
 
