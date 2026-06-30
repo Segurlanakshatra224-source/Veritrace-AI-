@@ -1,0 +1,36 @@
+                    +------------------+
+                    |    User Input    |
+                    +------------------+
+                             |
+            +----------------+----------------+
+            |                                 |
+     Upload Image                    Ask Question
+            |                                 |
+            +----------------+----------------+
+                             |
+                             v
+                 Image Preprocessing
+                             |
+                             v
+                  Qwen2-VL Processor
+                             |
+                             v
+                  Vision Encoder
+                             |
+                             |
+                   Text Encoder
+                             |
+                             v
+               Vision-Language Fusion
+                             |
+                             v
+                Large Language Model
+                             |
+              +--------------+--------------+
+              |                             |
+          Answer                  Explanation
+              |                             |
+              +--------------+--------------+
+                             |
+                             v
+                      User Output
