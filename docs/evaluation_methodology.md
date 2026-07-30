@@ -8,10 +8,11 @@ Measure model performance.
 
 - Accuracy
 - Explanation Quality
+- Token Confidence
 
 ## Testing
 
-1. Upload image
+1. Users Input
 2. Ask question
 3. Compare output
 4. Record results
