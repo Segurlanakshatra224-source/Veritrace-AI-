@@ -3,11 +3,12 @@ pytorch
 torch 
 Torchvision
 accelerate
-hugging Face transformers
+huggingFace-Transformers
 qwen-vl-utils
 Qwen2-VL-2B-instruct
 Whisper
 OpenCV 
 Pillow
 Librosa
-Git and GitHub
+Git 
+GitHub
