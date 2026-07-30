@@ -79,13 +79,13 @@ pip install -q  transformers accelerate torch torchvision pillow qwen-vl-utils
 
 ---
 ## Libraries
-Python
-Transformers
-Librosa
-Pillow
-Numpy
-Open CV
-Captum
+* Python
+* Transformers
+* Librosa
+* Pillow
+* Numpy
+* Open CV
+* Captum
 
 ---
 
@@ -96,11 +96,11 @@ Captum
 
 ---
 ## Explainability
--> Confidence scores
--> Attention visualization
--> Saliency maps
--> Token importance
--> Reasoning interpretation
+1. Confidence scores
+2. Attention visualization
+3. Saliency maps
+4. Token importance
+5. Reasoning interpretation
 
 ---
 
