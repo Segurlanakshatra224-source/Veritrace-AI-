@@ -7,7 +7,7 @@
 ![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow)
 ![Qwen2-VL](https://img.shields.io/badge/Model-Qwen2--VL--2B-success)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Whisper].(https://
+![Whisper](https://img.shields.io/badge/OpenAI-Whisper-412991)
 
 ---
  
