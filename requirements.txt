@@ -1,10 +1,13 @@
 python
 pytorch
-torch and Torchvision
+torch 
+Torchvision
 accelerate
-huggingface transformers
+hugging Face transformers
 qwen-vl-utils
 Qwen2-VL-2B-instruct
-OpenCV and Pillow
-Matplotlib
+Whisper
+OpenCV 
+Pillow
+Librosa
 Git and GitHub
