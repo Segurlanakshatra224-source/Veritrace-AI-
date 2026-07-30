@@ -1,10 +1,10 @@
-python
-pytorch
-torch 
+Python
+Pytorch
+Torch 
 Torchvision
-accelerate
-huggingFace-Transformers
-qwen-vl-utils
+Accelerate
+HuggingFace-Transformers
+Qwen-vl-utils
 Qwen2-VL-2B-instruct
 Whisper
 OpenCV 
