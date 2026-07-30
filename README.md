@@ -2,41 +2,40 @@
 
 ### Explainable Multimodal Visual Question Answering using Qwen2-VL
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Python](https://img.shields.io/badge/Python-3.12+-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red)
 ![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow)
 ![Qwen2-VL](https://img.shields.io/badge/Model-Qwen2--VL--2B-success)
 ![License](https://img.shields.io/badge/License-MIT-green)
+![Whisper].(https://
 
 ---
+ 
 
 ##  About the Project
 
-VeriTrace AI is an **Explainable Artificial Intelligence  system built using **Qwen2-VL-2B-Instruct**. It enables users to upload an image, ask natural language questions about it, and receive not only  answer but also a explanation of the reasoning behind the prediction. It also gives the visual evidence through which it 
-came to the conclusion.
+VeriTrace AI is an **Explainable Artificial Intelligence  system built using **Qwen2-VL-2B-Instruct**. The system accepts multiple input modalities—including text, images, audio, and video—and generates intelligent responses while providing insights into the model's reasoning process.  It enables user to ask natural language questions about it, and receive not only  answer but also a explanation of the reasoning behind the prediction. It also gives the  evidence through which it came to the conclusion.
 
 Unlike traditional computer vision models that only generate predictions, VeriTrace AI focuses on **transparency** by explaining *why* the model reached its conclusion.
+
+---
+## Features
+* Text based question answering
+* Image understanding and reasoning
+* speech to text using
+* video analysis
+* mudimodal reasoning with Qwen
+* Hugging Face Transformers
+* 100% Open Source
+  
 
 ---
 
 ##  Project Goals
 
-* Develop an intelligent Visual Question Answering (VQA) system.
-* Improve trust in AI through explainable responses.
-* Demonstrate multimodal reasoning using image and text.
-* Build an entirely open-source solution without external APIs.
 
 ---
 
-##  Features
-
-*  Image Understanding
-*  Visual Question Answering (VQA)
-*  Automatic Reasoning & Explanation
-*  Qwen2-VL Vision Language Model
-*  Hugging Face Transformers
-*  Google Colab 
-*  100% Open Source
 
 ---
 
@@ -47,9 +46,10 @@ Unlike traditional computer vision models that only generate predictions, VeriTr
 | Programming Language    | Python                    |
 | Deep Learning Framework | PyTorch                   |
 | Vision Language Model   | Qwen2-VL-2B-Instruct      |
+| Audio Language Model    | 
 | Model Library           | Hugging Face Transformers |
 | Image Processing        | Pillow                    |
-| Development Platform    | Google Colab              |
+| Development Platform    | VS Code                   |
 
 ---
 
@@ -75,17 +75,21 @@ pip install -q  transformers accelerate torch torchvision pillow qwen-vl-utils
 ```
 
 ---
+## Libraries
+Python
+Transformers
+Librosa
+Pillow
+Numpy
+Open CV
+Captum
+
+---
+
 
 ##  How to Run
 
-1. Clone the repository.
-2. Open the notebook in Google Colab.
-3. Install the required libraries.
-4. Upload an image.
-5. Enter your question.
-6. Receive:
-   *  Answer
-   *  Explanation
+
 
 ---
 
@@ -113,12 +117,6 @@ The model identified floppy ears, a long snout, visible paws, and body proportio
 
 ---
 
-##  Future Enhancements
-
-*  Voice-based Question Answering
-*  OCR Integration
-*  Document Understanding
-*  Video Question Answering
 
 
 ---
