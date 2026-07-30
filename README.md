@@ -32,10 +32,13 @@ Unlike traditional computer vision models that only generate predictions, VeriTr
 ---
 
 ##  Project Goals
-
+ - multimodal input processor
+ - Accurate AI Reasoning
+ - Speech Understanding
+ - Explainable AI
+ - Response Verification
 
 ---
-
 
 ---
 
@@ -90,6 +93,14 @@ Captum
 ##  How to Run
 
 
+
+---
+## Explainability
+-> Confidence scores
+-> Attention visualization
+-> Saliency maps
+-> Token importance
+-> Reasoning interpretation
 
 ---
 
