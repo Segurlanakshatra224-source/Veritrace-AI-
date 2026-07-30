@@ -4,33 +4,28 @@
                              |
             +----------------+----------------+
             |                                 |
-     Upload Image                    Ask Question
+            |  Text | Image |  Audio | Video  |                  Ask Question
             |                                 |
             +----------------+----------------+
                              |
                              v
-                 Image Preprocessing
+                   Input Processing Module
                              |
                              v
-                  Qwen2-VL Processor
+                     Qwen2-VL Processor
+                             |
+             -----------------------------------
+            |                |                  |
+         Whisper        Image Processor      Video Frames  
+            |                |                  |
+             ----------------|------------------
+                             |
+                             |
+                             |
+                   Expalainability Module
                              |
                              v
-                  Vision Encoder
-                             |
-                             |
-                   Text Encoder
+                         Confidence 
                              |
                              v
-               Vision-Language Fusion
-                             |
-                             v
-                Large Language Model
-                             |
-              +--------------+--------------+
-              |                             |
-          Answer                  Explanation
-              |                             |
-              +--------------+--------------+
-                             |
-                             v
-                      User Output
+                       Users Output
