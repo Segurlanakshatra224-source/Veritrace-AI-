@@ -46,7 +46,7 @@ Unlike traditional computer vision models that only generate predictions, VeriTr
 | Programming Language    | Python                    |
 | Deep Learning Framework | PyTorch                   |
 | Vision Language Model   | Qwen2-VL-2B-Instruct      |
-| Audio Language Model    | 
+| Audio Language Model    | Qwen2-VL-7B-Instruct      |
 | Model Library           | Hugging Face Transformers |
 | Image Processing        | Pillow                    |
 | Development Platform    | VS Code                   |
