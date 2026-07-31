@@ -63,7 +63,8 @@ VeriTrace-AI
 │
 ├── README.md
 ├── requirements.txt
-├── VeriTrace_Qwen2VL.ipynb
+├── Architecture
+├──Project Code
 └── docs/
 ```
 
@@ -118,7 +119,6 @@ Explanation:
 The model identified floppy ears, a long snout, visible paws, and body proportions that are characteristic of a dog.
 ```
 
----
 
 
 
