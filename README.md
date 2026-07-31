@@ -126,11 +126,12 @@ The model identified floppy ears, a long snout, visible paws, and body proportio
 
 ##  Model Information
 
-| Model        | Qwen2-VL-2B-Instruct         |
-| ---------    | -------------------------    |           
-| Framework    | Hugging Face Transformers    |
-| Input        | Image / Text / audio / video |
-| Output       | Answer + Explanation         |
+| Model        | Qwen2-VL-2B-Instruct                        |
+| ---------    | ------------------------------------------- |           
+| Framework    | Hugging Face Transformers                   |
+| Input        | Image / Text / audio / video                |
+| Output       | Answer + Explanation + Token Confidence     |
+
 
 ---
 
