@@ -40,8 +40,6 @@ Unlike traditional computer vision models that only generate predictions, VeriTr
 
 ---
 
----
-
 ##  Technology Stack
 
 | Category                | Technology                |
@@ -89,12 +87,6 @@ pip install -q  transformers accelerate torch torchvision pillow qwen-vl-utils
 
 ---
 
-
-##  How to Run
-
-
-
----
 ## Explainability
 1. Confidence scores
 2. Attention visualization
